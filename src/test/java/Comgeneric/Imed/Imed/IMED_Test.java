@@ -1,6 +1,6 @@
 package Comgeneric.Imed.Imed;
 
-//checking that updating in github
+//checking that updating in github again
 
 import static org.testng.Assert.assertEquals;
 import java.awt.AWTException;
