@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Comgeneric.Imed.Imed.IMED_Test]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="Comgeneric.Imed.Imed.IMED_Test">
+        <methods>
+          <include name="CreateNewCustomer"/>
+          <include name="CreateNewCustomervalidation"/>
+          <include name="CustomerADDLocation"/>
+          <include name="CustomerADDLocationValidations"/>
+          <include name="CustomerADDAssetValidation"/>
+          <include name="DelCustomer"/>
+          <include name="CustomerSearchBox"/>
+          <include name="CustomerADDWarehousevalidation"/>
+          <include name="CustomerUser"/>
+          <include name="LoginIMed"/>
+          <include name="CustomerADDAsset"/>
+          <include name="EditCustomer"/>
+          <include name="configBeforeclass"/>
+          <include name="CustomerADDWareHouse"/>
+          <include name="CustomerDashboard"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="Comgeneric.Imed.Imed.IMED_Test" tests="13" failures="0" timestamp="29 Jan 2018 07:13:47 GMT" time="6.369" errors="0">
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <failure type="java.lang.NoClassDefFoundError" message="org/apache/poi/xssf/usermodel/XSSFWorkbook">
+      <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at Comgeneric.Imed.Imed.Login.loginToIMED(Login.java:53)
+	at Comgeneric.Imed.Imed.IMED_Test.LoginIMed(IMED_Test.java:64)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 more
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod LoginIMed" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod Logout" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterClass Close" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerDashboard" time="0.002" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerSearchBox" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewCustomervalidation" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewCustomer" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDAssetValidation" time="0.001" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDAsset" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDLocationValidations" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDLocation" time="0.001" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDWarehousevalidation" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerADDWareHouse" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="CustomerUser" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="EditCustomer" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+  <testcase name="DelCustomer" time="0.0" classname="Comgeneric.Imed.Imed.IMED_Test">
+    <skipped/>
+  </testcase>
+</testsuite>

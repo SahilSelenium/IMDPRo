@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="false">
+    <classes>
+      <class name="Comgeneric.Imed.Imed.IMED_Test">
+        <methods>
+          <include name="Modeldelete"/>
+          <include name="CreateNewCustomervalidation"/>
+          <include name="CustomerADDLocationValidations"/>
+          <include name="SettingADDMANUFACTURES"/>
+          <include name="AssetCheckINforSchedule"/>
+          <include name="SettingAssetGroupDelete"/>
+          <include name="CheckInVender"/>
+          <include name="CustomerADDAssetValidation"/>
+          <include name="DelCustomer"/>
+          <include name="ModelChecklist"/>
+          <include name="SettingWOTypeDelete"/>
+          <include name="CustomerADDWarehousevalidation"/>
+          <include name="PartSearch"/>
+          <include name="AssetComments"/>
+          <include name="PartGroupsupdate"/>
+          <include name="SettingAddVendor"/>
+          <include name="WorkOrderviewAsset"/>
+          <include name="Logout"/>
+          <include name="SettingMODELS"/>
+          <include name="SettingVendorupdate"/>
+          <include name="AddPart"/>
+          <include name="SettingADDIssueType"/>
+          <include name="EditPart"/>
+          <include name="CustomerADDLocation"/>
+          <include name="CompletedOrders"/>
+          <include name="AddAsset"/>
+          <include name="MyProfilepicture"/>
+          <include name="SettingIssueTypeUpdate"/>
+          <include name="Report"/>
+          <include name="AddPartvalidation"/>
+          <include name="AssetDocuments"/>
+          <include name="SettingADDAssetGroup"/>
+          <include name="LoginIMed"/>
+          <include name="EditCustomer"/>
+          <include name="SettingPartShelvesDelete"/>
+          <include name="SettingADDWOType"/>
+          <include name="SettingADDpartShelves"/>
+          <include name="AssetCheckINforUNSchedule"/>
+          <include name="AssetHistory"/>
+          <include name="CreateNewCustomer"/>
+          <include name="SettingPartgroupsDelete"/>
+          <include name="WorkOrderCheckStatus"/>
+          <include name="Settingupdate"/>
+          <include name="partShelvesupdate"/>
+          <include name="SettingDeleteVendor"/>
+          <include name="AssetsAttribute"/>
+          <include name="CustomerADDAsset"/>
+          <include name="configBeforeclass"/>
+          <include name="CustomerADDWareHouse"/>
+          <include name="AddAssetvalidation"/>
+          <include name="EmployeeSearchvalidation"/>
+          <include name="EmployeeSearch"/>
+          <include name="SearchAsset"/>
+          <include name="Transit"/>
+          <include name="SettingADDpartgroups"/>
+          <include name="SettingAssetGroup"/>
+          <include name="AdvancePartSearch"/>
+          <include name="SettingADDWOTypeupdate"/>
+          <include name="WorkOrderShippedtoVendor"/>
+          <include name="searchassetbydropdown"/>
+          <include name="CustomerSearchBox"/>
+          <include name="WorkOrderComplete"/>
+          <include name="AssetCheckWorkOrders"/>
+          <include name="CustomerUser"/>
+          <include name="SettingIssueTypeDelete"/>
+          <include name="ShippedReport"/>
+          <include name="EmployeeEdit"/>
+          <include name="AddEmployee"/>
+          <include name="DelParts"/>
+          <include name="DelEmployee"/>
+          <include name="MyProfileSuccessmessage"/>
+          <include name="SettingDeleteMANUFACTURES"/>
+          <include name="WorkOrderApprovedINRepair"/>
+          <include name="MyProfilefirstnamelastname"/>
+          <include name="AdvancePartSearchvalidation"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

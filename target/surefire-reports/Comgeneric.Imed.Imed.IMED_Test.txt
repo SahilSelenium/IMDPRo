@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: Comgeneric.Imed.Imed.IMED_Test
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 1, Errors: 0, Skipped: 39, Time elapsed: 9.347 sec <<< FAILURE!
+LoginIMed(Comgeneric.Imed.Imed.IMED_Test)  Time elapsed: 8.46 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at Comgeneric.Imed.Imed.Login.loginToIMED(Login.java:53)
+	at Comgeneric.Imed.Imed.IMED_Test.LoginIMed(IMED_Test.java:64)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 more
+

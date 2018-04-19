@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="72" failed="0" total="73" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39823" started-at="2018-02-22T10:34:28Z" finished-at="2018-02-22T10:35:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39823" started-at="2018-02-22T10:34:28Z" finished-at="2018-02-22T10:35:07Z">
+      <class name="Comgeneric.Imed.Imed.IMED_Test">
+        <test-method status="PASS" signature="configBeforeclass()" name="configBeforeclass" is-config="true" duration-ms="7127" started-at="2018-02-22T10:34:28Z" finished-at="2018-02-22T10:34:35Z">
+        </test-method>
+        <test-method status="PASS" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="17331" started-at="2018-02-22T10:34:35Z" finished-at="2018-02-22T10:34:52Z">
+        </test-method>
+        <test-method status="PASS" signature="CustomerDashboard()" name="CustomerDashboard" duration-ms="10525" started-at="2018-02-22T10:34:52Z" finished-at="2018-02-22T10:35:03Z">
+        </test-method>
+        <test-method status="FAIL" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:03Z" finished-at="2018-02-22T10:35:03Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5560, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 41fca4e3-8212-4dfe-a6c6-b6f4430d4300
+*** Element info: {Using=xpath, value=html/body/div[1]/div/div[2]/div/ul/li[3]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5560, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 41fca4e3-8212-4dfe-a6c6-b6f4430d4300
+*** Element info: {Using=xpath, value=html/body/div[1]/div/div[2]/div/ul/li[3]/a/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at Comgeneric.Imed.Imed.IMED_Test.Logout(IMED_Test.java:3887)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:757)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CreateNewCustomervalidation()" name="CreateNewCustomervalidation" duration-ms="15" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerSearchBox()" name="CustomerSearchBox" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CreateNewCustomer()" name="CreateNewCustomer" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDLocationValidations()" name="CustomerADDLocationValidations" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDAssetValidation()" name="CustomerADDAssetValidation" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDAsset()" name="CustomerADDAsset" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDWarehousevalidation()" name="CustomerADDWarehousevalidation" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerUser()" name="CustomerUser" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDLocation()" name="CustomerADDLocation" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="EditCustomer()" name="EditCustomer" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CustomerADDWareHouse()" name="CustomerADDWareHouse" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="DelCustomer()" name="DelCustomer" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SearchAsset()" name="SearchAsset" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="searchassetbydropdown()" name="searchassetbydropdown" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AddAssetvalidation()" name="AddAssetvalidation" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AddAsset()" name="AddAsset" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetHistory()" name="AssetHistory" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetComments()" name="AssetComments" duration-ms="15" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetCheckWorkOrders()" name="AssetCheckWorkOrders" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetDocuments()" name="AssetDocuments" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetsAttribute()" name="AssetsAttribute" duration-ms="16" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetCheckINforSchedule()" name="AssetCheckINforSchedule" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AssetCheckINforUNSchedule()" name="AssetCheckINforUNSchedule" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="WorkOrderviewAsset()" name="WorkOrderviewAsset" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="WorkOrderCheckStatus()" name="WorkOrderCheckStatus" duration-ms="15" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="WorkOrderApprovedINRepair()" name="WorkOrderApprovedINRepair" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="WorkOrderShippedtoVendor()" name="WorkOrderShippedtoVendor" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CheckInVender()" name="CheckInVender" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="WorkOrderComplete()" name="WorkOrderComplete" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Transit()" name="Transit" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="EmployeeSearchvalidation()" name="EmployeeSearchvalidation" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AddEmployee()" name="AddEmployee" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="EmployeeSearch()" name="EmployeeSearch" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="DelEmployee()" name="DelEmployee" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="EmployeeEdit()" name="EmployeeEdit" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AdvancePartSearch()" name="AdvancePartSearch" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AdvancePartSearchvalidation()" name="AdvancePartSearchvalidation" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="PartSearch()" name="PartSearch" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AddPartvalidation()" name="AddPartvalidation" duration-ms="6" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="AddPart()" name="AddPart" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="EditPart()" name="EditPart" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="DelParts()" name="DelParts" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Report()" name="Report" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="ShippedReport()" name="ShippedReport" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="CompletedOrders()" name="CompletedOrders" duration-ms="3" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingMODELS()" name="SettingMODELS" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="ModelChecklist()" name="ModelChecklist" duration-ms="8" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Modeldelete()" name="Modeldelete" duration-ms="3" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDMANUFACTURES()" name="SettingADDMANUFACTURES" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingDeleteMANUFACTURES()" name="SettingDeleteMANUFACTURES" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Settingupdate()" name="Settingupdate" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDAssetGroup()" name="SettingADDAssetGroup" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingAssetGroupDelete()" name="SettingAssetGroupDelete" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingAssetGroup()" name="SettingAssetGroup" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDpartgroups()" name="SettingADDpartgroups" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingPartgroupsDelete()" name="SettingPartgroupsDelete" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="PartGroupsupdate()" name="PartGroupsupdate" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDpartShelves()" name="SettingADDpartShelves" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="partShelvesupdate()" name="partShelvesupdate" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingPartShelvesDelete()" name="SettingPartShelvesDelete" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingWOTypeDelete()" name="SettingWOTypeDelete" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDWOType()" name="SettingADDWOType" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDWOTypeupdate()" name="SettingADDWOTypeupdate" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingIssueTypeDelete()" name="SettingIssueTypeDelete" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingADDIssueType()" name="SettingADDIssueType" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingIssueTypeUpdate()" name="SettingIssueTypeUpdate" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingAddVendor()" name="SettingAddVendor" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingVendorupdate()" name="SettingVendorupdate" duration-ms="2" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="SettingDeleteVendor()" name="SettingDeleteVendor" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="MyProfilefirstnamelastname()" name="MyProfilefirstnamelastname" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="MyProfileSuccessmessage()" name="MyProfileSuccessmessage" duration-ms="1" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="LoginIMed()" name="LoginIMed" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="MyProfilepicture()" name="MyProfilepicture" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Logout()" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="Close()" name="Close" is-config="true" duration-ms="0" started-at="2018-02-22T10:35:07Z" finished-at="2018-02-22T10:35:07Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
